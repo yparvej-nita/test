@@ -133,4 +133,8 @@ SELECT * FROM products WHERE NOT (quantity >= 5000 AND name LIKE 'Pen %');
 SELECT * FROM products WHERE quantity >= 5000 AND price < 1.24 AND name LIKE 'Pen %';
 ```
 
+```sql
+SELECT * FROM products WHERE name IN ('Pen Red', 'Pen Black');
+```
+
 ---
