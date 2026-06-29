@@ -123,3 +123,10 @@ SELECT name, price FROM products;
 ---
 # LAB3
 SELECT * FROM products WHERE quantity >= 5000 AND name LIKE 'Pen %';
+
+----
+
+```sql
+SELECT * FROM products WHERE NOT (quantity >= 5000 AND name LIKE 'Pen %');
+```
+---
