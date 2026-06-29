@@ -119,3 +119,7 @@ SELECT * FROM products;
 -- List all rows for the specified columns 
 SELECT name, price FROM products;
 ```
+
+---
+# LAB3
+SELECT * FROM products WHERE quantity >= 5000 AND name LIKE 'Pen %';
