@@ -137,4 +137,9 @@ SELECT * FROM products WHERE quantity >= 5000 AND price < 1.24 AND name LIKE 'Pe
 SELECT * FROM products WHERE name IN ('Pen Red', 'Pen Black');
 ```
 
+```sql
+mysql> SELECT * FROM products
+WHERE (price BETWEEN 1.0 AND 2.0) AND (quantity BETWEEN 1000 AND 2000);
+```
+
 ---
