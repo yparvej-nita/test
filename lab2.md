@@ -177,3 +177,10 @@ SELECT * FROM products ORDER BY price LIMIT 2:
 SELECT • FROM products ORDER BY price LIMIT 2, 1;
 ```
 
+### Group by two columns
+
+```
+SELECT * FROM products ORDER BY productCode,productID
+```
+
+
